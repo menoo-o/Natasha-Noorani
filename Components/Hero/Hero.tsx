@@ -32,7 +32,6 @@ export default function Hero() {
             <Link href='/'>Home</Link>
             <Link href='/'>Shows</Link>
             <Link href='/merch'>Merch</Link>
-            <Link href='/'>Blogs</Link>
             <Link href='/'>Contact</Link>
             <Link href='/'>About</Link>
           </div>

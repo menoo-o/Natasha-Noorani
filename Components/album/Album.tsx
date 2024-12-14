@@ -6,6 +6,7 @@ export default function Album() {
   return (
     <>
         <div className='container-album'>
+
             <div className='header'>
                 <span>
                 <h2>MUSIC</h2>
@@ -19,8 +20,8 @@ export default function Album() {
                     <Image
                     src='/club.jpg'
                     alt='Club Sandwich'
-                    width={550}
-                    height={550}
+                    width={500}
+                    height={500}
                     className='album-pic'
                     />
                 </Link>
