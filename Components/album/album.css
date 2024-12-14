@@ -1,0 +1,56 @@
+.container-album{
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+}
+
+.header span {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.header span::before,
+.header span::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: rgb(99, 48, 141);
+    width: 25rem; /* Adjust the line length */
+}
+
+.header span::before {
+    margin-right: 10px; /* Space between the line and the text */
+}
+
+.header span::after {
+    margin-left: 10px; /* Space between the text and the line */
+}
+
+.header h2 {
+    font-size: 2rem;
+    color: rgb(22, 73, 114);
+    text-transform: uppercase; /* Optional: For stylistic effect */
+}
+
+.album-pic{
+    margin-top: 1rem;
+}
+
+.album-btn button{
+    padding: 10px 30px;
+    font-size: 1.2em;
+    margin-top: 1rem;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(89, 182, 219);
+}
+
+.album-btn button:hover{
+    background-color: rgb(74, 44, 129);
+    color: white;
+}

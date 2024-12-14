@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Hero from "@/Components/Hero/Hero";
 import Loading from "@/Components/loadingLogo/Loading";
+import Album from "@/Components/album/Album";
 
 export default function HomePage() {
     const [isLoading, setIsLoading] = useState(true);
@@ -17,11 +18,17 @@ export default function HomePage() {
         return () => clearTimeout(timer);
     }, []);
 
+    
+
     return (
         <main>
             {
-             isLoading ? ( <Loading />) : (< Hero />)
+             isLoading ? ( <Loading />) : (
+             < Hero />
+            )
             }
+            
+            <Album />
         </main>
     );
 }

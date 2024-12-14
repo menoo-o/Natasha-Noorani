@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import './hero.css'
 
+
 export default function Hero() {
     return (
       <>
@@ -38,7 +39,7 @@ export default function Hero() {
         </nav>
 
     
-  
+   
       </>
     );
   }
